@@ -27,12 +27,11 @@ height: 100px;
 
 section .content-container .amount{
     color: #FFF;
-    
-        font-family: Inter;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 section .content-container .type{
 color: #FFF;
