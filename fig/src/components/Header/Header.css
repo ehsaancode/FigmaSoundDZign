@@ -1,0 +1,67 @@
+
+Header{
+    min-height: 100vh;
+    background-image: url('../../assets/whiteorange.png');
+    background-size: cover;
+    background-position: center;
+}
+
+Header .wrapper{
+    position: relative;
+    height: 100vh;
+}
+Header .cta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:450px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 4px 4px 4px 4px;
+    border-style: solid;
+    border-color: white;
+    backdrop-filter: blur(25px);
+    border-radius: 20px 20px 0px 0px;
+    padding: 50px 40px;
+}
+
+header .wrapper .cta .h1{
+    color: #FFF;
+    font-family: "Alegreya";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+Header .cta .course-name{
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+
+Header .cta .course-name::after{
+    content: "";
+    position: absolute;
+    width: 60px ;
+    height: 4px;
+    background-color: var(--red-color);
+    left: 0;
+    bottom: -10px;
+
+}
+
+Header .cta .demo-btn{
+    color: #FFF;
+    
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: inline-flex;
+        padding: 10px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 10px;
+        background: #E63946;
+}
